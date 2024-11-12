@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+.body-edit{
+    background-color: #008080;
+}
+.nav-item a:hover {
+    color: #008080;
+    font-size: 1rem;
+}
+a{
+    font-family :"Oswald" , sans-serif ;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+font-kerning: normal;
+font-optical-sizing: auto;
+font-stretch:100%;
+font-variation-settings:
+normal;
+font-feature-settings:
+normal;
+text-transform:
+uppercase;
+text-decoration:
+none solid rgb(254, 189, 26);
+text-align:
+left;
+text-indent:0px;
+}
+nav{
+    background-color: #161817;
+}
+.navbar{
+    background-color:black;
+}
+.res{
+    height: auto;
+    width: 30%;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-menu{
+    color: white;
+}
+.report{
+    height: 2.5rem;
+    width: 10rem;
+background-color: #008080;
+}
+.report a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+}
+/* Cart styling for cart.html */
+.cart-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+background-color: black;
+}
+
+.cart-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cart-items {
+    max-height: 400px;
+    overflow-y: auto;
+  color: white;
+}
+
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.cart-footer {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    color: white;
+}
+.cart-btn{
+    width: 5.5rem;
+    height: 2rem;
+    background-color: white;
+    color: #008080;
+    font-size: 1rem;
+}
+.cart-btn  button :hover{
+    background-color:black;
+    font-size: 1.5rem;
+}
